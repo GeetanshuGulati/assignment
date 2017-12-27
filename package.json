@@ -1,0 +1,27 @@
+{
+  "name": "geetanshu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-generator": "^4.15.5",
+    "express-rate-limit": "^2.9.0",
+    "helmet": "^3.9.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.5",
+    "nodemon": "^1.12.1",
+    "prettier": "^1.8.2",
+    "save": "^2.3.1",
+    "serve-favicon": "^2.4.5"
+  }
+}

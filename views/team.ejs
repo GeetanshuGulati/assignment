@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Teams</title>
+</head>
+<body>
+
+    <% for(let team in finalArray) { %>
+     <p>
+         <%= team%>
+         <ol>
+         <%for(let i=0;i<finalArray[team].length;i++) {%>
+            <li><%=finalArray[team][i].name %>&nbsp;&bull;&nbsp;<%=finalArray[team][i].country %></li>
+         <%}%>
+    </ol>
+     </p>
+    <%}%>
+
+</body>
+</html>
